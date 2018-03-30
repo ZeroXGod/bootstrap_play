@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstraptravel</title>
+
+	<meta charset="utf-8">
+
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	 
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	 
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!--支持移动端-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        .breadcrumb > li + li:before {
+            color: #CCCCCC;
+            content: "|| ";
+            padding: 0 5px;
+        }
+    </style>
+</head>
+<body>
+	<div class="container">
+		<h1> HELLO,WORLD!</h1>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3"> HELLO,WORLD!</div>
+			<div class="col-md-6 col-md-offset-3"> HELLO,WORLD!</div>
+      	</div>
+      	<div class="row">
+      		<blockquote class="pull-left">
+      			这是一个左引用。
+      			<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+      		</blockquote>
+      	</div>	
+	</div>
+
+	<form>
+		<div>
+        	<label>测试1</label>
+		    <input name="nnn" type="text"/>
+		</div>
+	</form>
+
+	<form role="form-horizontal">
+        <div class="form-group">
+        	<label for="name">测试2</label>
+		    <input name="kk" type="text" class="form-control"/>
+        </div>
+	</form>
+
+	<div class="dropdown pull-right">
+		<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+			主题
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu " role="menu" aria-labelledby="dropdownMenu1">
+			<li role="presentation" class="dropdown-header">下拉菜单标题 1</li>
+			<li role="presentation">
+				<a role="menuitem" tabindex="-1" href="#">Java</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" tabindex="-2" href="#">php1</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" tabindex="-1" href="#">php2</a>
+			</li>
+			<li role="presentation" class="divider"></li>
+			<li role="presentation" class="dropdown-header">下拉菜单标题2</li>
+			<li role="presentation">
+				<a role="menuitem" tabindex="-1" href="#">php3</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="btn-group">
+		<button type="button" class="btn btn-default">按钮1</button>
+		<button type="button" class="btn btn-default">按钮2</button>
+		<button type="button" class="btn btn-default">按钮3</button>
+	</div>
+
+	<div class="btn-group-vertical">
+		<button type="button" class="btn btn-default">按钮1</button>
+		<button type="button" class="btn btn-default">按钮2</button>
+		<button type="button" class="btn btn-default">按钮3</button>
+	</div>
+
+	<div class="btn-group">
+		<button type="button" class="btn btn-default">按钮1</button>
+		<button type="button" class="btn btn-default">按钮2</button>
+		<div class="btn-group">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">下拉<span class="caret"></span></button>
+			<ul class="dropdown-menu">
+				<li><a href="#">按钮3</a></li>
+				<li><a href="#">按钮4</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="btn-group">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">学科<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">java</a></li>
+			<li><a href="#">php</a></li>
+			<li><a href="#">c</a></li>
+		</ul>
+	</div>
+	<div class="btn-group">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">爱好<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">模型</a></li>
+			<li><a href="#">游戏</a></li>
+			<li><a href="#">漫画</a></li>
+		</ul>
+	</div>
+
+	<form role="form-horizontal">
+        <div class="input-group">
+        	<span class="input-group-addon">测试2</span>
+		    <input name="kk" type="text" class="form-control"/>
+        </div>
+	</form>
+
+	<p>标签式的导航菜单</p>
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#">Home</a></li>
+		<li><a href="#">SVN</a></li>
+		<li><a href="#">IOS</a></li>
+		<li><a href="#">VB.Net</a></li>
+		<li><a href="#">Java</a></li>
+		<li><a href="#">PHP</a></li>
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+				其他 <span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu">
+				<li><a href="#">Swing</a></li>
+				<li><a href="#">c</a></li>
+			</ul>
+		</li>
+	</ul>
+
+	<p>带有下拉菜单的胶囊</p>
+	    <ul class="nav nav-pills nav-stacked">
+	    	<li class="active"><a href="#">Home</a></li>
+	    	<li class="#"><a href="#">SVN</a></li>
+	    	<li class="#"><a href="#">IOS</a></li>
+	    	<li class="#"><a href="#">VB.net</a></li>
+	    	<li class="dropdown">
+	    		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+	    			JAVA<span class="caret"></span>
+	    		</a>
+	    		<ul class="dropdown-menu">
+	    			<li><a href="#">Swing</a></li>
+	    			<li><a href="#">jMeter</a></li>
+	    			<li class="divider"></li>
+	    			<li><a href="#">分离的链接</a></li>
+	    		</ul>
+	    	</li>
+	    	<li><a href="#">PHP</a></li>
+	    </ul>
+	    <nav class="navbar navbar-default" role="navigation">
+	    	<div class="container-fluid">
+	    		<div class="navbar-header">
+	    			<a class="navbar-brand" href="#">菜鸟教程</a>
+	    		</div>
+	    		<div>
+	    			<ul class="nav navbar-nav">
+	    				<li class="active"><a href="#">IOS</a></li>
+	    				<li><a href="#">SVN</a></li>
+	    				<li class="dropdown">
+	    					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+	    						Java
+	    						<b class="caret"></b>
+	    					</a>
+	    					<ul class="dropdown-menu">
+	    						<li><a href="#">jmeter</a></li>
+	    						<li><a href="#">EJB</a></li>
+	    						<li><a href="#">Jasper Report</a></li>
+	    						<li class="divider"></li>
+	    						<li><a href="#">hhh</a></li>
+	    					</ul>
+	    				</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </nav>
+
+	    <nav class="navbar navbar-default" role="navigation">
+	    	<div class="container-fluid">
+	    		<div class="navbar-header">
+	    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+	    				<span class="sr-only">切换导航</span>
+	    				<span class="icon-bar"></span>
+	    				<span class="icon-bar"></span>
+	    				<span class="icon-bar"></span>
+	    				<span class="icon-bar"></span>
+	    			</button>
+	    			<a class="navbar-brand" href="#">菜鸟教程</a>
+	    		</div>
+	    		<div class="collapse navbar-collapse" id="example-navbar-collapse">
+	    			<ul class="nav navbar-nav">
+	    				<li class="active"><a href="#">IOS</a></li>
+	    				<li><a href="#">SVN</a></li>
+	    				<li class="dropdown">
+	    					<a href="#" class="dropdown-toggle" data-toggle="dropdown">J AVA <b class="caret"></b>
+	    					</a>
+	    					<ul class="dropdown-menu">
+	    						<li><a href="#">jmeter</a></li>
+	    						<li><a href="#">EJB</a></li>
+	    						<li><a href="#">Jasper Report</a></li>
+	    						<li class="divider"></li>
+	    						<li><a href="#">分离的链接</a></li>
+	    						<li class="divider"></li>
+	    						<li><a href="#">另一个分离的链接</a></li>
+	    					</ul>
+	    				</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </nav>
+
+
+	    <!--面包屑导航-->
+        <ol class="breadcrumb">	
+        	<li><a href="#">home</a></li>
+        	<li><a href="#">2013</a></li>
+        </ol>
+        <!-- 分页-->
+        <ul class="pagination pagination-lg">
+        	<li><a href="#">&laquo;</a></li>
+        	<li class="active"><a href="#">1</a></li>
+        	<li><a href="#">2</a></li>
+        	<li class="disabled"><a href="#">3</a></li>
+        	<li><a href="#">4</a></li>
+        	<li><a href="#">&raquo;</a></li>
+        </ul>
+        <br/>
+        <ul class="pagination">
+        	<li><a href="#">&laquo;</a></li>
+        	<li class="active"><a href="#">1</a></li>
+        	<li><a href="#">2</a></li>
+        	<li class="disabled"><a href="#">3</a></li>
+        	<li><a href="#">4</a></li>
+        	<li><a href="#">&raquo;</a></li>
+        </ul>
+        <br/>
+        <ul class="pagination pagination-sm">
+        	<li><a href="#">&laquo;</a></li>
+        	<li class="active"><a href="#">1</a></li>
+        	<li><a href="#">2</a></li>
+        	<li class="disabled"><a href="#">3</a></li>
+        	<li><a href="#">4</a></li>
+        	<li><a href="#">&raquo;</a></li>
+        </ul>
+
+        <!-- 翻页 -->
+        <ul class="pager">
+            <li class="previous"><a href="#">&larr;Previous</a></li>
+            <li class="next"><a href="#">Next&rarr;</a></li>
+        </ul>
+
+        <!-- 标签 -->
+        <h1>Example Heading <span class="label label-default">Label</span></h1>
+        <h2>Example Heading <span class="label label-default">Label</span></h2>
+        <h3>Example Heading <span class="label label-default">Label</span></h3>
+        <h4>Example Heading <span class="label label-default">Label</span></h4>
+
+        <div class="container">
+            <span class="label label-default">默认标签</span>
+            <span class="label label-primary">主要标签</span>
+            <span class="label label-success">成功标签</span>
+            <span class="label label-info">信息标签</span>
+            <span class="label label-warning">警告标签</span>
+            <span class="label label-danger">危险标签</span>
+        </div>
+
+        <!-- 徽章 -->
+        <div class="container">
+        	<h2>徽章</h2>
+        	<p>.badge 类指定未读消息的数量</p>
+        	<p><a href="#">收件箱 <span class="badge">21</span></a></p>
+        </div>
+
+        <h4>胶囊式导航中的激活状态</h4>
+        <ul class="nav nav-pills">
+        	<li class="active">
+        		<a href="#">首页
+        			<span class="badge">42</span>
+        		</a>
+        	</li>
+        	<li>
+        		<a href="#">简介
+        			<span class="badge">3</span>
+        		</a>
+        	</li>
+        	<li>
+        		<a href="#">消息
+        			<span class="badge"></span>
+        		</a>
+        	</li>
+        </ul>
+        <h4>列表导航</h4>
+        <ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+        	<li class="active">
+        		<a href="#">
+        			<span class="badge pull-right">42</span>首页
+        		</a>
+        	</li>
+        	<li>
+        		<a href="#">简介</a>
+        	</li>
+        	<li>
+        		<a href="#">
+        			<span class="badge pull-right">3</span>消息
+        		</a>
+        	</li>
+        </ul>
+        <!--超大屏幕-->
+        <div class="container">
+        	<div class="jumbotron">
+        		<h1>欢迎登陆页面</h1>
+        		<p>这是一个超大屏幕的实例。</p>
+        		<p><a class="btn btn-primary btn-lg" role="button">学习更多</a></p>
+        	</div>
+        </div>
+
+        <div class="jumbotron">
+            <div class="container">        	
+        		<h1>欢迎登陆页面</h1>
+        		<p>这是一个超大屏幕的实例。</p>
+        		<p><a class="btn btn-primary btn-lg" role="button">学习更多</a></p>
+        	</div>
+        </div>
+
+        <div class="page-header">
+        	<h1>页面标题实例
+        		<small>子标题</small>
+        	</h1>
+        </div>
+
+
+</body>
+</html>
