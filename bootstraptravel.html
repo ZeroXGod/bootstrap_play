@@ -543,7 +543,244 @@
         </ul>
 
 
+        <!--向列表组添加链接-->
+        <a href="#" class="list-group-item active">标题2</a>
+        <a href="#" class="list-group-item">标题3</a>
 
+        <!--向列表组添加自定义内容-->
+        <div class="list-group">
+        	<a href="#" class="list-group-item active">
+        		<h4 class="list-group-item-heading">
+        			入门网站包
+        		</h4>
+        	</a>
+        	<a href="#" class="list-group-item">
+        		<h4 class="list-group-item-heading">
+        			免费域名注册
+        		</h4>
+        		<p class="list-group-item-text">
+        			您讲通过网页进行免费域名注册
+        		</p>
+        	</a>
+        	<a href="#" class="list-group-item">
+        		<h4 class="list-group-item-heading">
+        			24*7支持
+        		</h4>
+        		<p class="list-group-item-text">
+        			 我们提供24*7支持。
+        		</p>
+        	</a>
+        </div>
+
+        <div class="panel panel-default">
+        	<div class="panel-body">
+        		这是一个基本的面板
+        	</div>
+        </div>
+
+        <div class="panel panel-default">
+        	<div class="panel-heading">
+        		不带title的面板标题
+        	</div>
+        	<div class="panel-body">
+        		面板内容
+        	</div>
+        </div>
+
+        <div class="panel panel-default">
+        	<div class="panel-heading">
+        		<h3 class="panel-title">
+        			带有title的面板标题
+        		</h3>
+        	</div>
+        	<div class="panel-body">
+        		面板内容
+        	</div>
+        </div>
+
+        <div class="panel panel-default">
+
+            <div class="panel-body">
+                这是一个基本的面板
+            </div>
+            <div class="panel-footer">面板脚注 </div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">面板标题</h3>
+            </div>
+            <div class="panel-body">
+                这是一个基本的面板
+            </div>
+        </div>
+
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">面板标题</h3>
+            </div>
+            <div class="panel-body">
+                这是一个基本的面板
+            </div>
+            <div class="panel-footer">面板脚注</div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                面板标题</h3>
+            </div>
+            <div class="panel-body">
+                这是一个基本的面板
+            </div>
+        </div>
+
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h3 class="panel-title">面板标题</h3>
+            </div>
+            <div class="panel-body">
+                这是一个基本的面板
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    面板标题
+                </h3>
+            </div>
+            <div class="panel-body">
+                这是一个基本的面板
+            </div>
+        </div>
+
+    <!--带表格的面板-->
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">面板标题</h3>
+        </div>
+        <div class="panel-body">
+            这是一个基本的面板
+        </div>
+        <table class="table">
+            <th>产品</th><th>价格</th>
+            <tr><td>产品 A</td><td>200</td></tr>
+            <tr><td>产品 B</td><td>400</td></tr>
+        </table>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">面板标题</div>
+        <table class="table">
+            <th>产品</th><th>价格</th>
+            <tr><td>产品 A</td><td>200</td></tr>
+            <tr><td>产品 B</td><td>400</td></tr>
+        </table>
+    </div>
+
+    <!--带列表组的面板-->
+    <div class="panel panel-default">
+        <div class="panel-heading">面板标题</div>
+        <div class="panel-body">
+            <p>这是一个基本的面板内容。这是一个基本的面板内容。
+                这是一个基本的面板内容。这是一个基本的面板内容。
+                这是一个基本的面板内容。这是一个基本的面板内容。
+                这是一个基本的面板内容。这是一个基本的面板内容。
+            </p>
+        </div>   
+
+        <ul class="list-group">
+            <li class="list-group-item">免费域名注册</li>
+            <li class="list-group-item">免费 Window 空间</li>
+            <li class="list-group-item">图像的数量</li>
+            <li class="list-group-item">24*7支持</li>
+            <li class="list-group-item">每年更新成本</li>
+        </ul>
+    </div>
+
+    <!--bootstrap wall-->
+    <div class="well">您好，我在Well中!</div>
+    <div class="well well-lg">您好，我在大的Well中!</div>
+    <div class="well well-sm">您好，我在小的Well中！</div>
+
+    <!--模态框-->
+    <h2>创建模态框(Modal)</h2>
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框</button>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">模态框（Model）标题</h4>
+                </div>
+                <div class="modal-body">在这里添加一些文本</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary">提交更改</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--滚动监听插件-->
+    <nav id="navbar-example" class="navbar navbar-default navbar-static" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-js-navbar-scrollspy">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">教程名称</a>
+            </div>
+            <div class="collapse navbar-collapse bs-js-navbar-scrollspy">
+                <ul class="nav navbar-nav">
+                    <li><a href="#ios">ios</a></li>
+                    <li><a href="#svn">svn</a></li>
+                    <li class="dropdown">
+                        <a href="#" id="navbarDrop1" class="dropdown-toggle" data-toggle="dropdown">Java
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDrop1">
+                            <li><a href="#jmeter" tabindex="-1">jmeter</a></li>
+                            <li><a href="#ejb" tabindex="-1">ejb</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#spring" tabindex="-1">spring</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div data-spy="scroll" data-target="#navbar-example" data-offset="0" style="height:200px;overflow:auto;position: relative;">
+        <div class="section">
+            <h4 id="ios">IOS<small><a href="#" onclick="removeSection(this);">&times; 删除该部分</a></small></h4>
+            <p>IOS 是一个由苹果公司开发和发布的手机操作系统。最初是于2007年首次发布iPhone、iPod Touch 和 Apple TV.IOS 派生自OS X， 它们已经发展为Apache software Foundation 的一个项目，因此拥有丰富的开发人员和用户社区
+            </p>
+        </div>
+        <div class="section">
+            <h4 id="svn">SVN</h4>
+            <p>Apache Subversion，通常缩写为 SVN，是一款开源的版本控制系统软件。Subversion 由 CollabNet 公司在 2000 年创建。但是现在它已经发展为 Apache Software Foundation 的一个项目，因此拥有丰富的开发人员和用户社区。</p>
+        </div>
+        <div class="section">
+            <h4 id="jmeter">jMeter</h4>
+            <p>jMeter  是一款开源的测试软件。它是100%纯Java 应用程序，用于负载和性能测试。
+            </p>
+        </div>
+        <div class="section">
+            <h4 id="ejb">EJB</h4>
+            <p>Enterprise Java Beans (EJB) 是一个创建高度可扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如JBOSS、Web Logic 等）的J2EE上。
+            </p>
+        </div>
+        <div class="section">
+            <h4 id="spring">Spring</h4>
+            <p>Spring 框架 是一个开源的Java平台，为快速开发功能强大的Java应用程序提供了完备的基础设施支持。</p>
+            <p>Spring 框架最初是由 Rod Johnson编写的， 在2003年6月首次发布于Apache 2.0许可证下。
+            </p>
+        </div> 
+    </div>
+
+</body>
 </body>
 </html>
 <style>
@@ -552,3 +789,31 @@
 	height: 40px;
 }
 </style>
+
+<script>
+    $(function() {
+        $('#myModal').modal('hide')
+    });
+</script>
+
+<script>
+    $(function() {
+        $('#myModal').on('hidden.bs.modal',
+        function() {
+           alert('嘿, 我听说您喜欢模态框');
+        }) 
+    });
+    
+</script>
+
+<script>
+    $(function(){
+        removeSection = function(e){
+            $(e).parents(".section").remove();
+            $('[data-spy="scroll"]').each(function () {
+                var $spy = $(this).scrollspy('refresh')
+            });
+        }
+        $("#myScrollspy").scrollspy();
+    });
+</script>
